@@ -1,10 +1,10 @@
 # USOIL 12h OHLCV Commodities Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-9_898_rows-blue)](https://getdata.finance/datasets/usoil) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usoil)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-9_987_rows-blue)](https://getdata.finance/datasets/usoil) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usoil)
 
 ### -> [**Download the full USOIL dataset on getdata.finance**](https://getdata.finance/datasets/usoil)
 
-**USOIL 12h OHLCV commodities historical data** — ultra high-quality 12h OHLCV for **WTI Crude Oil**. Global commodity sessions — Asia, Europe and US coverage for futures-style market activity. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**USOIL 12h OHLCV commodities historical data** — ultra high-quality 12h OHLCV for **WTI Crude Oil**. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -22,13 +22,12 @@
 ## Why this dataset?
 
 - **Ultra high-quality 12h OHLCV** for **WTI Crude Oil** (Commodities)
-- **Global commodity sessions — Asia, Europe and US coverage for futures-style market activity**
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`12h`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/usoil) · **9,898** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`12h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usoil) · **9,987** `12h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `USOIL_12h.csv` (326 rows, `2026-01-05` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/usoil)** — **9,898** `1m` rows (~0.55 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2008-09-10` -> `2026-07-31`.
+> **Sample on GitHub** · `USOIL_12h.csv` (89 rows, `2026-07-08` -> `2026-09-02`, 5.38 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usoil)** — **9,987** `12h` rows (full `1m`: 6,029,418), **11 timeframes**, `2008-09-10` -> `2026-09-02`.
 
 ## Download sample
 
@@ -45,21 +44,21 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/usoil))** |
 |---|--:|---|
 | Instrument | WTI Crude Oil · Commodities | WTI Crude Oil · Commodities |
-| Timeframes | `12h` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 326 | **9,898** |
-| Size | 0.02 MB | ~0.55 MB |
-| Period | `2026-01-05` -> `2026-07-31` | `2008-09-10` -> `2026-07-31` |
+| Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 12h rows | 89 | **9,987** |
+| Size | 5.38 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usoil) |
+| Period | `2026-07-08` -> `2026-09-02` | `2008-09-10` -> `2026-09-02` |
 | File | `USOIL_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/usoil) |
 | Coverage report | — | [USOIL coverage](https://getdata.finance/coverage/usoil) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`12h` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/usoil)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`12h` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/usoil)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `12h` sample · [getdata.finance](https://getdata.finance/datasets/usoil) = all **9** timeframes above for the same instrument.
+GitHub = `12h` sample · [getdata.finance](https://getdata.finance/datasets/usoil) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -76,21 +75,21 @@ First and latest rows from the GitHub sample **`USOIL_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-05T12:00:00+00:00 | 57.624 | 58.489 | 57.437 | 58.198 | 25150 |
-| 2026-01-06T00:00:00+00:00 | 58.198 | 58.659 | 57.827 | 58.578 | 14724 |
-| 2026-01-06T12:00:00+00:00 | 58.578 | 58.848 | 56.348 | 56.433 | 29028 |
-| 2026-01-07T00:00:00+00:00 | 56.433 | 56.972 | 55.749 | 56.829 | 25988 |
-| 2026-01-07T12:00:00+00:00 | 56.829 | 57.144 | 55.838 | 56.283 | 32112 |
+| 2026-07-08T00:00:00+00:00 | 72.117 | 75.287 | 71.802 | 73.739 | 115879 |
+| 2026-07-08T12:00:00+00:00 | 73.739 | 76.059 | 73.328 | 74.092 | 93195 |
+| 2026-07-09T00:00:00+00:00 | 74.092 | 74.649 | 72.362 | 72.647 | 77689 |
+| 2026-07-09T12:00:00+00:00 | 72.647 | 73.052 | 71.292 | 72.128 | 50643 |
+| 2026-07-10T00:00:00+00:00 | 72.128 | 72.822 | 71.157 | 71.573 | 65113 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-29T12:00:00+00:00 | 81.763 | 84.794 | 81.732 | 83.442 | 99934.3515577762 |
-| 2026-07-30T00:00:00+00:00 | 83.442 | 85.177 | 82.462 | 82.924 | 98071 |
-| 2026-07-30T12:00:00+00:00 | 82.924 | 84.239 | 82.381 | 84.049 | 79513.374448259 |
-| 2026-07-31T00:00:00+00:00 | 84.049 | 85.074 | 81.193 | 84.857 | 85540 |
-| 2026-07-31T12:00:00+00:00 | 84.857 | 86.029 | 83.969 | 84.589 | 80794 |
+| 2026-08-31T00:00:00+00:00 | 85.178 | 86.764 | 84.452 | 85.972 | 78104 |
+| 2026-08-31T12:00:00+00:00 | 85.972 | 86.714 | 85.102 | 86.328 | 53040 |
+| 2026-09-01T00:00:00+00:00 | 86.328 | 88.518 | 86.208 | 88.352 | 84875 |
+| 2026-09-01T12:00:00+00:00 | 88.352 | 92.274 | 87.492 | 91.298 | 94470 |
+| 2026-09-02T00:00:00+00:00 | 91.298 | 91.298 | 91.258 | 91.287 | 72 |
 
 ## Schema
 
@@ -117,8 +116,6 @@ import pandas as pd
 df = pd.read_csv('USOIL_12h.csv', parse_dates=['datetime'])
 df.set_index('datetime', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -151,15 +148,15 @@ close = df.set_index('datetime')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='12h')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **USOIL** archive on **[getdata.finance](https://getdata.finance/datasets/usoil)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **9,898** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **USOIL** archive on **[getdata.finance](https://getdata.finance/datasets/usoil)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **9,987** rows at `12h`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full USOIL dataset on getdata.finance](https://getdata.finance/datasets/usoil)**
 
 ---
-*GetData · USOIL 12h OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/usoil) · 2026-08-05 UTC*
+*GetData · USOIL 12h OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/usoil)*
